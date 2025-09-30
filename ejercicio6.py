@@ -1,3 +1,3 @@
-num=(input("Introduzca un numero entero: "))
-suma=float((num)*((num)+1)/2)
-print=(f"{suma}")
+num=int(input("Introduzca un número entero positivo: "))
+suma=(num * (num + 1) / 2)**2
+print(suma)
