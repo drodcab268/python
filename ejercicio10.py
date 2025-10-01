@@ -1,0 +1,7 @@
+payaso=float(112)
+munieca=float(75)
+numP=float(input("Introduzca el número de payasos que hay en el envio: "))
+numM=float(input("Introduzca el número de muñecas que hay en el envio: "))
+peso=((payaso*numP)+(munieca*numM))
+kg=(peso/1000)
+print(f"El envio es de {numP} payasos y {numM} muñecas. Con un peso total de: {kg} KG")
