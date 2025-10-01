@@ -1,0 +1,6 @@
+inver=float(input("Introduzca la cantidad que desea invertir: "))
+porc=float(input("Introduzca el interes anual en %: "))
+anio=float(input("Introduzca el número de años: "))
+inter=(porc/100)
+capOb=(inver+((inver*inter)*anio))
+print(f"El capital obtenido en la inversión es de: {capOb}")
