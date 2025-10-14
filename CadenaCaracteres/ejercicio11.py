@@ -4,4 +4,4 @@ numUni=input("Introduzca el número de unidades: ")
 
 total=float(preci)*float(numUni)
 
-print(f"Producto: {produ} Precio: {preci}€, Unidades: {numUni}, Total: {total}€")
+print(f"Producto: {produ:08.2f} Precio: {preci:03d}€, Unidades: {numUni:010.2f}, Total: {total}€")
