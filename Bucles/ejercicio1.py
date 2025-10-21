@@ -1,0 +1,1 @@
+palabra=("Introduzca una palabra: ")
