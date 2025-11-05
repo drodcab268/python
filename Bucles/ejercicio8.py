@@ -1,4 +1,6 @@
 num=int(input("Introduzca un número entero positivo: "))
-num = num + 1
-for x in range(0,num):
-    print("" * x)
+for i in range(1,num+1,2):
+    print()
+    for j in range(i,0,-2):
+        print(j, end=",")
+print()
