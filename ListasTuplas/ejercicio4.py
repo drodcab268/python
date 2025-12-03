@@ -7,6 +7,5 @@ for x in range(numero):
     loteria.append(num)
     
 loteria.sort()
-for numLot in loteria:
-    print(numLot)
-
+for numLoteria in loteria:
+    print(numLoteria)
