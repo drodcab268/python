@@ -1,9 +1,13 @@
 asignaturas=["Matemáticas","Física","Química","Historia","Lengua"]
-notas=[]
+repetir=[]
 
 for asignatura in asignaturas:
-    inNota=int(input(f"Introduzca la nota que ha sacado en {asignatura}: "))
-    notas.append(inNota)
+    nota=int(input(f"Introduzca la nota que ha sacado en {asignatura}: "))
+    
+    if nota < 5:
+        repetir.append(asignatura)
 
-for i in range(len(asignaturas)):
-    print(f"En {asignaturas[i]} ha sacado: {notas[i]}")
+print()
+print("Asignaturas que tienes que repetir:")
+for x in repetir:
+    print(x)
