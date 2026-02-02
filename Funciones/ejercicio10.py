@@ -1,20 +1,18 @@
-def to_decimal(n):
-    n = list(n)
-    n.reverse()
+def fun_decimal(num):
+    num = list(num)
+    num.reverse()
     decimal = 0
-    for i in range(len(n)):
-        decimal += int(n[i]) * 2 ** i
+    for i in range(len(num)):
+        decimal += int(num[i]) * 2 ** i
     return decimal
 
-def to_binary(n):
-    binary = []
-    while n > 0:
-        binary.append(str(n % 2))
-        n //= 2
-    binary.reverse()
-    return ''.join(binary)
+def fun_binario(num):
+    binario = []
+    while num > 0:
+        binario.append(str(num % 2))
+        num //= 2
+    binario.reverse()
+    return "".join(binario)
 
-print(to_decimal('10110'))
-print(to_binary(22))
-print(to_decimal(to_binary(22)))
-print(to_binary(to_decimal('10110')))
+print(fun_decimal("11110000"))
+print(fun_binario(77))
